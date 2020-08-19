@@ -1,11 +1,23 @@
-package clasa.algorithms.src.com.lseg.arrays;
+package com.lseg.arrays;
 
-public class rotLeft {
+import java.util.Scanner;
+
+public class RotLeft {
     public static void main(String[] args) {
         //Initialize array
-        int[] a = new int[]{6, 2, 4, 8, 98};
+        //int[] a = new int[]{6, 2, 4, 8, 98};
         //d determine the number of times an array should be rotated
-        int d = 1;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Set array size: ");
+        int n = in.nextInt();
+        System.out.println("Enter number of times array should be rotated: ");
+        int d = in.nextInt();
+        int[] a = new int[n];
+        System.out.println("Set array elements: ");
+        for (int i = 0; i < n; i++) {
+            a[i] = in.nextInt();
+        }
+        //int d = 1;
         //Displays original array
         System.out.println("Original array: ");
         for (int i = 0; i < a.length; i++) {
