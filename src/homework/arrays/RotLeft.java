@@ -1,4 +1,4 @@
-package com.lseg.arrays;
+package homework.arrays;
 
 import java.util.Scanner;
 
