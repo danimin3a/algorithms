@@ -47,7 +47,7 @@ public class ArrayPlay {
             System.out.print("In while " + i);
             System.out.println(" - Elementul: " + i + " --> " + intArray[i] + ", ");
             i++;
-        }
+        } //third commit modification
 
 
         //sa vedem daca arrayul are elementul 7

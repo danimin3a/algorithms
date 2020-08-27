@@ -2,7 +2,7 @@ package com.lseg.arrays;
 
 import java.util.Scanner;
 
-public class rotation {
+public class Rotation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Introduceti dimensiunea array-ului");
