@@ -1,7 +1,7 @@
 /*Sa se determine si sa se salveze toate numerele prime intr-un int[] array ce va fi returnat de
         functie, mai mici decat un numar dat n, natural.*/
 
-package homework.for_while_switch_Exercises;
+package homework.homework2;
 
 public class Ex_7_For {
     public static int[] ArrayP(int bis) {

@@ -1,6 +1,4 @@
-package homework.for_while_switch_Exercises;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package homework.homework2;
 
 import java.util.Random;
 import java.util.Scanner;

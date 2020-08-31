@@ -1,6 +1,5 @@
-package homework.for_while_switch_Exercises;
+package homework.homework2;
 
-import java.util.Arrays;
 import java.io.Console;
 
 public class Ex7_while {

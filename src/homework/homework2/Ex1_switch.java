@@ -1,4 +1,4 @@
-package homework.for_while_switch_Exercises;
+package homework2;
 
 import java.util.Scanner;
 

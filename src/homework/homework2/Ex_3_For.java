@@ -1,9 +1,8 @@
-package homework.for_while_switch_Exercises;
+package homework.homework2;
 
-public class Ex_2_For {
+public class Ex_3_For {
     public static void main(String[] args) {
         final int[][] a = {
-                {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
@@ -12,7 +11,9 @@ public class Ex_2_For {
                 {0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 1, 0},
-                {0, 0, 0, 0, 0, 0, 0, 0, 0, 1}
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+
         };
         for (int i = 0; i < a.length; i++) { //equals to the row in matrix
             for (int j = 0; j < a[i].length; j++) { //equals to the column in each row.
@@ -22,3 +23,4 @@ public class Ex_2_For {
         }
     }
 }
+

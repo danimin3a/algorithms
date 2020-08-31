@@ -1,4 +1,4 @@
-package homework.for_while_switch_Exercises;
+package homework.homework2;
 
 public class Ex_8_For {
         public static void main(String[] args) {
