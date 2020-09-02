@@ -6,7 +6,7 @@ package homework.homework3;
 
 import java.util.Scanner;
 
-public class homework3 {
+public class Ex1_convertToKilometersPerHour {
     static double convertToKilometersPerHour(double milesPerHour) {
         // return statement to convert milesPerHour to KilometersPerHour
         if (milesPerHour != 0) {
