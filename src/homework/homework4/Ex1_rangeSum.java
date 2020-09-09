@@ -16,11 +16,11 @@ public class Ex1_rangeSum {
     }
 
     static boolean isDivisible(int number, int divisor) {
-        boolean divisibil = false;
+        boolean divisible = false;
         if (number % divisor == 0) {
-            divisibil = true;
+            divisible = true;
         }
-        return divisibil;
+        return divisible;
     }
 
     public static void main(String[] args) {
