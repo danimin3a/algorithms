@@ -4,20 +4,25 @@
 
 package homework.homework3;
 
+
 import java.util.Scanner;
 
 public class Ex1_convertToKilometersPerHour {
     static double convertToKilometersPerHour(double milesPerHour) {
         // return statement to convert milesPerHour to KilometersPerHour
-        if (milesPerHour != 0) {
-            return milesPerHour * 1.60934;
+        if (milesPerHour >= 0) {
+            milesPerHour = milesPerHour * 1.60934;
+        } else {
+            System.out.println("invalid input");
+            return 0.0;
         }
         return milesPerHour;
     }
+
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Insert speed in milesPerHour");
         double KilometersPerHour = in.nextDouble();
-        System.out.println(KilometersPerHour+" milesPerHour "+"converted into KilometersPerHour = "+convertToKilometersPerHour(KilometersPerHour));
+        System.out.println(KilometersPerHour + " milesPerHour " + "converted into KilometersPerHour = " + convertToKilometersPerHour(KilometersPerHour));
     }
 }

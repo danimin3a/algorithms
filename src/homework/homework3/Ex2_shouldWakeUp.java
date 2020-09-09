@@ -14,8 +14,7 @@ import java.util.Scanner;
 public class Ex2_shouldWakeUp {
     static boolean shouldWakeUp(boolean barking, int hour) {
         if (hour < 0 || hour > 23) {
-            System.out.println("Wrong value. Insert from 1 to 23!");
-
+            System.out.println("Wrong value. Insert from 0 to 23!");
         } else if (hour <= 8 || hour >= 22) {
             return true;
         } else {
