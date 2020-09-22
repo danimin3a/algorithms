@@ -1,7 +1,5 @@
 package homework.homework6;
 
-import java.awt.geom.Point2D;
-
 public class Point {
     private int x;
     private int y;
@@ -31,11 +29,11 @@ public class Point {
         this.y = y;
     }
 
-    //Returns the distance to the origin
+    /** Returns the distance to the origin */
     public double distance() {
         return Math.sqrt(x * x + y * y);
     }
-
+    /** Returns the distance to another point */
     public double distance(Point another) {
         double x1;
         double y1;

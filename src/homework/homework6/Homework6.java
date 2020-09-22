@@ -22,6 +22,7 @@ public class Homework6 {
         Point point = new Point();
         System.out.println("distance()= " + point.distance());
 
+
         System.out.println("-----------------------------------------------");
 
         System.out.println("Ex.3");
